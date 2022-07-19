@@ -62,8 +62,8 @@ Use at: &nbsp;&nbsp;&nbsp; ***https://quickzip.netlify.app/***
 
 - Installable on Mobile
 
-![step2](screenshots/10.png)
+![step2](screenshots/10.jpg)
 
 - Initial Window (Mobile)
 
-![step2](screenshots/11.png)
+![step2](screenshots/11.jpg)
