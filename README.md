@@ -10,6 +10,8 @@
 <h1> Quick Zip </h1>
 
 This **webapp** compresses and decompresses **(.txt)** files in realtime.
+<br>
+Use at: &nbsp;&nbsp;&nbsp; ***https://quickzip.netlify.app/***
 </br>
 
 <hr>
