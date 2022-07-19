@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Quick ZIP</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' href='styles.css'>
+	<!-- <script src='heap_implementation.js' type="module"></script>
+	<script src='codec_implementation.js' type="module"></script> -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+	<script src='script.js' type="text/javascript"></script>
+
+<!-- icons -->
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/icons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<!-- icons -->
+
+</head>
+
+<!-- <body onload="onloadfn();"> -->
+<body>
+	<h1  id="heading">COMPRESS / DE-COMPRESS !! </h1>
+
+	<div class="bigdiv">
+		<div class = "smalldiv">
+		<div class="align" ><h2 > UPLOAD YOUR FILE</h2></div>
+		<div class="align" id="step1">
+			<img src="assets/text_file_icon1a.png"  width="50px" id="textImg">
+			<br>
+			
+			<div  id="frm"><form method="post" enctype="multipart/form-data" class="form" id="fileform">
+				<div 
+				style="width : 80% ; margin : auto"
+				class = "filea"><input type="file" id="uploadfile"  class="input"> </div>
+				<!-- <input type="submit" class="input" id="submitbtn" > -->
+				<div class = "filea"><input type="button" id="submitbtn"  class="input1" value="Submit">
+				</div>
+			</form>
+			</div>
+			<span id="text1">(.txt files only)</span>
+			
+			<br>
+			<!-- Upload File -->
+		</div>
+		</div>
+		<div class = "smalldiv">
+		<div class="align" ><h2 > SELECT &nbspACTION</h2></div>
+		<div class="align" id="step2">
+			<!-- &emsp;&emsp;&emsp;&emsp; -->
+			<img src="assets/options_icon2a.png" width="90px" id="optionsImg">
+			<br>
+			<button type="button" id="encode" class="button1"  >COMPRESS</button>
+			<span class="or">
+				&nbsp or &nbsp;
+			</span>
+			<!-- &emsp;&emsp;&emsp;&emsp; -->
+			<button type="button" id="decode" class="button2"   >DE-COMPRESS</button>
+			<!-- Select Action -->
+			<br>
+		</div>
+		</div>
+		</div>
+		<h2 class="align" > Wait.....</h2>
+		<div class="align" id="step3" >
+			<img src="assets/wait_icon1a.png" id="waitImg">
+			<br>
+			<!-- Wait a moment -->
+		</div>
+		<br>
+		<div id="footer">
+		<span class="align" id="text4">
+			<button type="button" onclick="location.reload()"  class="input1"  >Click Here</button> <h2>to Start Again! </h2>
+		</span>
+	
+	<span class="text">
+		<h2 style ="margin-bottom: 1rem ; text-align: center">Want to know more about the compression technique used by this tool?</h2>
+		<div class = "info"><a href="https://www.techiedelight.com/huffman-coding/"	class="button3"  id="link1" target="_blank">Click Here!</a></div>
+	</span>
+	</div>
+
+</body>
+
+</html>

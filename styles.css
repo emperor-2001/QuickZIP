@@ -1,0 +1,347 @@
+
+*{
+    padding : 0;
+    margin : 0;
+    /* background-color:  rgba(24, 24, 24, 0.787); */
+    color: rgb(228, 228, 230);
+   
+}
+.smalldiv
+{
+    border : 1px solid rgb(63, 63, 63);
+    background-color: rgb(27, 27, 27);
+    border-radius: 0.5rem;
+    padding : 1rem;
+    height: full;
+    width: 100%;
+    /* margin-right : 1rem;  */
+}
+
+/* h2{
+    /* color: black; */
+    /* font-style: italic; */
+    /* text-decoration: underline;    */
+/* } */ 
+
+body {
+ background:  rgba(0, 0, 0, 0.787);
+  font-family:'Varela Round', sans-serif;
+}
+h3{
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+}
+#heading {
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 2.8rem;
+    margin : 2rem 2rem;
+    text-align: center;
+}
+#uploadFile
+{
+    text-align: center;
+}
+.align{
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 2.4rem;
+    /* padding-left: 17%;
+    padding-right: 12%;
+    padding-bottom: 0.05%; */
+    /* background-color: rgb(182, 179, 179); */
+    /* font-size: medium; */
+    
+}
+#step1
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+#step2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bigdiv{
+    display: flex; 
+    align-items : center;
+     flex-direction: row;
+     justify-content: center;
+     gap:0.5rem;
+     padding:0 0.5rem;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    /* border: rgb(0, 0, 0) solid 2px; */
+    
+    /* background-color: rgb(182, 179, 179) ; */
+}
+
+.links{
+    color: rgb(11, 11, 251);
+    background-color: rgb(189, 201, 206);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-weight:+ bold; */
+    font-size: large;
+}
+.links:hover{
+    color: rgb(3, 3, 128);
+    background-color: rgb(2, 158, 158);
+}
+
+.form{
+    /* background-color: rgb(182, 179, 179) ; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: x-small; */
+    display: inline-block;
+}
+.input{
+   font-size: 1.2rem;
+   padding-top: 1.7rem;
+   border-radius: 0.4rem;
+   /* background-color: black; */
+    /* background-color: rgb(182, 179, 179); */
+}
+.input1{
+    /* font-size: x-small; */
+     font-size: 1.2rem;
+     /* border : 2px solid white; */
+     color: black;
+     padding: 0.5rem 1rem;
+     background-color: rgb(80, 225, 251);
+     border-radius: 0.3rem;
+     outline: none;
+     border: none;
+     cursor: pointer;
+    /* background-color: rgb(182, 179, 179); */
+}
+
+#text1{
+    font-size: xx-small;
+    /* background-color: rgb(182, 179, 179) ; */
+}
+#text4{
+    font-size: small;
+}
+/* #encode{
+    background-color: rgb(97, 153, 97);
+} */
+/* #decode{
+    background-color: rgb(172, 75, 75);
+} */
+#encode:disabled{
+    background-color: rgb(182, 179, 179);
+}
+#decode:disabled{
+    background-color: rgb(182, 179, 179);
+}
+.button{
+    /* font-size: 1.2rem; */
+    /* font-weight: bold; */
+    color: black;
+    /* background-color: rgb(142, 180, 250); */
+    /* background-color: cyan; */
+}
+.button1
+{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    padding: 0.4rem;
+    
+    color: rgb(6, 5, 5);
+    background-color: rgb(49, 243, 55);
+}
+.or{
+    font-size:1rem;
+    margin: 0.3rem 0;
+}
+.button2
+{
+    cursor: pointer;
+    outline: none;
+    border: none;
+     border-radius: 0.3rem;
+    padding: 0.2rem;
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    color: rgb(6, 5, 5);
+    background-color: rgb(245, 22, 22);
+}
+.button:disabled{
+    color: rgb(56, 54, 54);
+}
+.text{
+    font-size: small;
+}
+.text2{
+    /* background-color: rgb(182, 179, 179); */
+    font-size: small;
+}
+#link1{
+    font-size: 1.2rem;
+}
+#textImg{
+    /* width: 20%; */
+    /* margin-left: 30%; */
+     background-image : url("assets/text_file_icon1a.png") center no-repeat cover;
+    /* text-align: center; */
+    /* background-color: rgb(182, 179, 179); */
+}
+.filea
+{
+    padding: 0.5rem;
+    /* font-size: 1rem; */
+}
+#frm
+{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#doneImg{
+    width: 30%;
+    /* margin-left: 30.5%; */
+    /* background-color: rgb(182, 179, 179); */
+}
+#doneImg1{
+    width: 20%;
+    /* margin-left: 30.5%; */
+    /* background-color: rgb(182, 179, 179); */
+}
+
+#optionsImg{
+    /* width: 38%; */
+    margin-bottom: 2rem;
+    /* margin-left: 28.5%; */
+    
+    /* background-color: rgb(182, 179, 179); */
+}
+
+#waitImg{
+    width: 24%;
+    /* margin-left: 29%; */
+   
+    /* background-color: rgb(182, 179, 179); */
+}
+.button3
+{
+    margin: 2rem;
+    text-decoration: none;
+    /* text-align: center; */
+    background-color: rgb(255, 58, 58); 
+    border-radius : 0.3rem;
+    padding : 0.5rem 1rem;
+}
+.info
+{
+    text-align: center; 
+}
+#footer
+{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10rem;
+    justify-content: center;
+}
+
+@media screen and (max-width:986px) {
+    .bigdiv{
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+    .smalldiv{
+        width: 100%;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+}
+
+/* h2{
+    font-size: 2rem;
+} */
+/* @media(min-width:740px){
+    #heading {
+        margin-left: 12%;
+        margin-right: 10%;
+        font-size: 150%;
+    }
+    #encode{
+        margin-left: 4%;
+    }
+    .button{
+        font-size: medium;
+    }
+    /* .bigdiv{
+        margin-left: 15%;
+        margin-right: 15%;
+    } */
+    /* .align{
+        font-size: large;
+    }
+    .text{
+        font-size: medium;
+        margin-left: 12%;
+        margin-right: 3%;
+    }
+    #text1{
+        font-size: x-small;
+    }
+    .text2{
+        font-size: medium;
+    }
+    #text4{
+        font-size: medium;
+    }
+    .input{
+        font-size: small;
+    }
+    #link1{
+        font-size: large;
+    }
+}
+@media(min-width:1090px){
+    #heading {
+        margin-left: 17%;
+        margin-right: 11%;
+        font-size: 165%;
+    }
+    #encode{
+        margin-left: 4%;
+    }
+    .text{
+        margin-left: 25%;
+        margin-right: 15%;
+    }
+    #text1{
+        font-size: small;
+    }
+    /* .bigdiv{
+        margin-left: 19%;
+        margin-right: 15%;
+    } */
+    /* .button{
+        font-size: large;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+    .align{
+        padding-left:23% ;
+        padding-right: 20%;
+        font-size: x-large;
+    }
+    .text2{
+        font-size: large;
+    }
+} */
+ 
